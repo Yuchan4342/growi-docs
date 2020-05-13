@@ -15,7 +15,7 @@
 | | : `public` Forces all pages to become public | |
 | | : `private` Forces all pages to become private | |
 | `FORMAT_NODE_LOG` | If `false`, Output server log as JSON. (Enabled only when `NODE_ENV=production`) | `true` |
-| `MATHJAX` | (TBD) | |
+| `MATHJAX` | If a value such as `1`, rendering into numerical formula by [MathJax](https://www.mathjax.org/) is enabled | |
 | `USER_UPPER_LIMIT` | (TBD) | |
 | **Option for file uploading** | | |
 | `FILE_UPLOAD` | Attached files storage. | `aws` |
