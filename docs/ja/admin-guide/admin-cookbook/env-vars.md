@@ -14,7 +14,7 @@
 | | : `public` 全てのページを強制的にパブリックにします。 | |
 | | : `private` 全てのページを強制的に非公開にします。 | |
 | `FORMAT_NODE_LOG` |  `false`の場合、サーバーログを JSON 形式で出力します。(`NODE_ENV=production` の時のみ可能) | `true` |
-| `MATHJAX` | (TBD) | |
+| `MATHJAX` | `1` などの値が設定されている場合 [MathJax](https://www.mathjax.org/) による数式へのレンダリングが有効になります。 | |
 | `USER_UPPER_LIMIT` | (TBD) | |
 | **ファイルアップロードオプション** | | |
 | `FILE_UPLOAD` | ファイルアップロード先のストレージ | `aws` |
